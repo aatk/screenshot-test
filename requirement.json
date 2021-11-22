@@ -1,0 +1,45 @@
+{
+  "baseURL": "http://localhost:3000",
+  "testDir": "__tests__",
+  "beforeDir": "/before/",
+  "afterDir": "/after/",
+  "diffDir": "/difference/",
+
+  "pageWidths": [
+    {
+      "name": "Desktop FullHD",
+      "width": 1920
+    },
+    {
+      "name": "Desktop",
+      "width": 1600
+    },
+    {
+      "name": "iPad Pro",
+      "width": 1024
+    },
+    {
+      "name": "iPad",
+      "width": 768
+    },
+    {
+      "name": "iPhone 6/7/8 Plus",
+      "width": 414
+    },
+    {
+      "name": "iPhone X",
+      "width": 375
+    }
+  ],
+  "pageList": [
+    {
+      "name" : "index",
+      "page": ""
+    },
+    {
+      "name" : "demopage",
+      "page": "onlyForDesktop",
+      "pageWidth": 1600
+    }
+  ]
+}
